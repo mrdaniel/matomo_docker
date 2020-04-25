@@ -5,8 +5,6 @@ services:
     image: matomo:3.13
     restart: always
     volumes:
-    #  - ./config:/var/www/html/config:rw
-    #  - ./logs:/var/www/html/logs
       - matomo:/var/www/html
     environment:
       MATOMO_DATABASE_HOST: db
