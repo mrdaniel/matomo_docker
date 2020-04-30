@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   app:
-    image: matomo:3.13
+    image: matomo:3.13.5
     restart: always
     volumes:
       - matomo:/var/www/html
@@ -14,7 +14,7 @@ services:
       - db
 
   db:
-    image: mariadb:10.5
+    image: mariadb:10.5.2
     command: --max-allowed-packet=64MB
     restart: always
     volumes:
