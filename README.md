@@ -12,3 +12,5 @@ MYSQL_PASSWORD=your_db_password
 ```
 
 Then start the services with `docker-compose up`
+
+More details on my blog, including [setting geolocation data and deploying the Matomo container](https://danielwachtel.com/devops/dockerizing-a-matomo-web-analytics-app).
